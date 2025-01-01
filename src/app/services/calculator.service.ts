@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CalculatorService {
-  private apiUrl = 'http://localhost:3000/calculate'; // NestJS backend URL
+  private apiUrl = 'http://162.55.221.212:3000/calculate'; // NestJS backend URL
 
   constructor(private http: HttpClient) {}
 

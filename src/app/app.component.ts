@@ -26,7 +26,7 @@ export class AppComponent {
 
     const payload = { input1: this.input1, input2: this.input2 };
 
-    this.http.post<{ result: number }>('http://127.0.0.1:3000/calculate', payload)
+    this.http.post<{ result: number }>('http://162.55.221.212:3000/calculate', payload)
       .subscribe({
         next: (response) => {
           this.result = response.result;
